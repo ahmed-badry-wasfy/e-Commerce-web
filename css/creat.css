@@ -1,0 +1,39 @@
+.contain {
+  height: 100vh;
+  display: flex;
+  background-image: url(../img/asset\ 26.png);
+  background-size: cover;
+}
+
+.contain .form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  /* background-color: #cc5c1754; */
+  height: 500px;
+  margin-top: 100px;
+  align-items: center;
+}
+.contain .form button,
+.contain .form input {
+  margin: 15px 0;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.467);
+  border-radius: 5px;
+}
+#sel {
+  width: 100%;
+  padding: 5px;
+}
+.contain .form button {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.contain .form button:hover {
+  opacity: 0.5;
+}

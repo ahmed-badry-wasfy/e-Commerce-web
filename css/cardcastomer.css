@@ -1,0 +1,60 @@
+.table {
+  margin-top: 150px;
+  min-height: 70vh;
+}
+.table img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.table .container .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  flex-direction: column;
+  border-right: 1px solid #cccaca;
+  padding: 10px;
+}
+.table .container .box .tablebody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #c9c7c7;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.btnA {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table .container .box .tablebody p {
+  position: relative;
+  color: #777;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin: 0 8px;
+}
+button {
+  padding: 0px 15px;
+  background: #337ab7;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+
+@media (max-width: 800px) {
+  .table .container .box {
+    width: 90%;
+  }
+}
